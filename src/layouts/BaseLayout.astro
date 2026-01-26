@@ -12,24 +12,24 @@ const { showHeader = true, ...head } = Astro.props;
 
 <!doctype html>
 <html lang="en" class="wrap-break-words antialiased">
-    <head>
-        <BaseHead {...head} />
-        <script>
-            if (localStorage.theme === 'dark') {
-                document.documentElement.classList.add('dark');
-            }
-        </script>
-        <ClientRouter />
-        <script is:inline src="/theme-toggle.js"></script>
-    </head>
-    <body class="bg-main text-main">
-        <div class="flex min-h-screen flex-col px-4 md:px-8">
-            <Nav />
-            {showHeader && <Header />}
-            <main class="mx-auto w-full max-w-3xl grow">
-                <slot />
-            </main>
-            <Footer />
-        </div>
-    </body>
+  <head>
+    <BaseHead {...head} />
+    <script>
+      if (localStorage.theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+    <ClientRouter />
+    <script is:inline src="/theme-toggle.js"></script>
+  </head>
+  <body class="bg-main text-main">
+    <div class="flex min-h-screen flex-col px-4 md:px-8">
+      <Nav />
+      {showHeader && <Header />}
+      <main class="mx-auto w-full max-w-3xl grow">
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
 </html>
