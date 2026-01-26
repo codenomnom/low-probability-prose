@@ -1,0 +1,22 @@
+{
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "class:list"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "prettier.documentSelectors": [
+    "**/*.astro"
+  ],
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": [
+    "source.organizeImports"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
