@@ -1,7 +1,12 @@
 {
-  "name": "dante-astro-theme",
+  "name": "low-probability-prose",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:codenomnom/low-probability-prose.git"
+  },
+  "author": "codenomnom",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
