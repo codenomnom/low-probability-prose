@@ -6,6 +6,8 @@ tags:
   - CSS
   - Web development
 isFeatured: true
+ai: ChatGPT
+agent: GPT-4
 seo:
   image:
     src: '../../assets/images/post-8.jpg'

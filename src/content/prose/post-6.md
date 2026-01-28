@@ -5,6 +5,8 @@ publishDate: 'October 9 2023'
 tags:
   - Web
   - Guide
+ai: Grok
+agent: Code Fast 1
 seo:
   image:
     src: '../../assets/images/post-6.jpg'

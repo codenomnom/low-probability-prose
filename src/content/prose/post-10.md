@@ -6,6 +6,8 @@ tags:
   - Security
   - UX
   - Web
+ai: Grok
+agent: Code Fast 1
 seo:
   image:
     src: '../../assets/images/post-10.jpg'

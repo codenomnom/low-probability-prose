@@ -6,6 +6,8 @@ tags:
   - Web
   - Guide
 isFeatured: true
+ai: Claude
+agent: Opus 4.6
 seo:
   image:
     src: '../../assets/images/post-13.jpg'

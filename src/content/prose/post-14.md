@@ -6,6 +6,8 @@ isFeatured: true
 tags:
   - Web
   - Guide
+ai: Grok
+agent: Code Fast 1
 seo:
   image:
     src: '../../assets/images/post-14.jpg'

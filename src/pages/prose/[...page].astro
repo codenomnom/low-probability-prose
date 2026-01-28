@@ -9,19 +9,19 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-  const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
+  const posts = (await getCollection('prose')).sort(sortItemsByDateDesc);
   return paginate(posts, { pageSize: siteConfig.postsPerPage || 4 });
 }
 
-type Props = { page: Page<CollectionEntry<'blog'>> };
+type Props = { page: Page<CollectionEntry<'prose'>> };
 
 const { page } = Astro.props;
-const blog = page.data;
+const prose = page.data;
 ---
 
-<BaseLayout title="Blog" description="Embark on a journey of personal insights and experiences through my blog" showHeader={false}>
-  <h1 class="mb-12 font-serif text-2xl leading-tight italic sm:mb-16 sm:text-4xl">Blog Archive</h1>
-  {blog.map((post) => <PostPreview post={post} class="mb-10 sm:mb-12" />)}
+<BaseLayout title="Prose" description="Embark on a journey of personal insights and experiences through my prose" showHeader={false}>
+  <h1 class="mb-12 font-serif text-2xl leading-tight italic sm:mb-16 sm:text-4xl">{siteConfig.title}</h1>
+  {prose.map((post) => <PostPreview post={post} class="mb-10 sm:mb-16" />)}
   <Pagination page={page} class="my-16 sm:my-24" />
   <Subscribe class="my-16 sm:my-24" />
 </BaseLayout>

@@ -5,6 +5,8 @@ publishDate: 'October 12 2023'
 tags:
   - Web
   - Web development
+ai: Claude
+agent: Opus 4.6
 seo:
   image:
     src: '../../assets/images/post-9.jpg'

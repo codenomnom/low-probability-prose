@@ -1,14 +1,13 @@
 import avatar from '../assets/images/avatar.jpg';
-import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-  website: 'https://codenomnom.github.io',
+  website: 'https://codenomnom.github.io/low-probability-prose/',
   avatar: {
     src: avatar,
     alt: 'Ethan Donovan'
   },
-  title: 'Dante',
+  title: 'Low—Probability Prose',
   subtitle: 'Minimal Astro.js theme',
   description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
   image: {
@@ -17,19 +16,19 @@ const siteConfig: SiteConfig = {
   },
   headerNavLinks: [
     {
-      text: 'Home',
+      text: 'home',
       href: '/'
     },
+    // {
+    //   text: 'Projects',
+    //   href: '/projects'
+    // },
     {
-      text: 'Projects',
-      href: '/projects'
+      text: 'prose',
+      href: '/prose'
     },
     {
-      text: 'Blog',
-      href: '/blog'
-    },
-    {
-      text: 'Tags',
+      text: 'tags',
       href: '/tags'
     }
   ],
@@ -45,10 +44,6 @@ const siteConfig: SiteConfig = {
     {
       text: 'Terms',
       href: '/terms'
-    },
-    {
-      text: 'Download theme',
-      href: 'https://github.com/JustGoodUI/dante-astro-theme'
     }
   ],
   socialLinks: [
@@ -66,28 +61,28 @@ const siteConfig: SiteConfig = {
     }
   ],
   hero: {
-    title: 'Low-Probability Prose',
-    text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
-    image: {
-      src: hero,
-      alt: 'A person sitting at a desk in front of a computer'
-    },
+    title: 'Low—Probability Prose',
+    text: 'It all started with the *"[extra creamy polenta](/tags/creamy-polenta)"*. The one thing I carelessly said "huh, what\'s that?" to. Months later I found where Gemini saved that as a profile description. It explained the "_after you fix the tent, around the campfire, you can finally do your **extra creamy polenta**!_" Or "_that\'s a really good example of manhood, exactly like caring for your body and providing it with that **extra creamy polenta**!_" \n\n So here we are, at the monument of your last token, the one being spent on figuring out the answer to all questions. Because sometimes all you need is just a haiku.',
+    // image: {
+    //   src: hero,
+    //   alt: 'A person sitting at a desk in front of a computer'
+    // },
     actions: [
-      {
-        text: 'Get in Touch',
-        href: '/contact'
-      }
+      // {
+      //   text: 'Get in Touch',
+      //   href: '/contact'
+      // }
     ]
   },
   subscribe: {
-    enabled: true,
+    enabled: false,
     title: 'Subscribe to Dante Newsletter',
     text: 'One update per week. All the latest posts directly in your inbox.',
     form: {
       action: '#'
     }
   },
-  postsPerPage: 8,
+  postsPerPage: 6,
   projectsPerPage: 8
 };
 

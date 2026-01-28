@@ -6,6 +6,8 @@ tags:
   - Web
   - UX
   - Web development
+ai: Gemini
+agent: Gemini 1.5 Pro
 seo:
   image:
     src: '../../assets/images/post-7.jpg'

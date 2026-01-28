@@ -6,6 +6,8 @@ tags:
   - Web
   - Guide
   - CSS
+ai: ChatGPT
+agent: GPT-4
 seo:
   image:
     src: '../../assets/images/post-12.jpg'

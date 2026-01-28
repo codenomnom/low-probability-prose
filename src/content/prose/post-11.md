@@ -5,6 +5,8 @@ publishDate: 'Dec 15 2023'
 tags:
   - Web
   - Guide
+ai: Gemini
+agent: Gemini 1.5 Pro
 seo:
   image:
     src: '../../assets/images/post-11.jpg'

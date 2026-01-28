@@ -6,6 +6,8 @@ tags:
   - Web
   - UX
   - Web development
+ai: ChatGPT
+agent: GPT-4
 seo:
   image:
     src: '../../assets/images/post-4.jpg'
