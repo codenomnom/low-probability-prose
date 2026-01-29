@@ -6,10 +6,10 @@ import PostPreview from '../../components/PostPreview.astro';
 import Subscribe from '../../components/Subscribe.astro';
 import siteConfig from '../../data/site-config';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { sortItemsByDateDesc } from '../../utils/data-utils';
+import { filterDraftProse, sortItemsByDateDesc } from '../../utils/data-utils';
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-  const posts = (await getCollection('prose')).sort(sortItemsByDateDesc);
+  const posts = (await getCollection('prose')).filter(filterDraftProse).sort(sortItemsByDateDesc);
   return paginate(posts, { pageSize: siteConfig.postsPerPage || 4 });
 }
 

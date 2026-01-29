@@ -5,13 +5,17 @@ export function sortItemsByDateDesc(itemA: CollectionEntry<'prose' | 'projects'>
   return new Date(itemB.data.publishDate).getTime() - new Date(itemA.data.publishDate).getTime();
 }
 
+export function filterDraftProse<T extends CollectionEntry<'prose'>>(item: T) {
+  return import.meta.env.PROD ? !item.data.draft : !item.id.startsWith('_');
+}
+
 export function getAllTags(posts: CollectionEntry<'prose'>[]) {
   const tags: string[] = [...new Set(posts.flatMap((post) => post.data.tags || []).filter(Boolean))];
   return tags
     .map((tag) => {
       return {
         name: tag,
-        id: slugify(tag)
+        id: slugify(tag),
       };
     })
     .filter((obj, pos, arr) => {

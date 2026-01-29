@@ -15,3 +15,10 @@ export function slugify(input?: string) {
 
   return slug;
 }
+
+export function url(path: string) {
+  if (!path) return import.meta.env.BASE_URL;
+
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+  return `${import.meta.env.BASE_URL}${cleanPath}`;
+}

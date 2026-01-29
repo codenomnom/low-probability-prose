@@ -1,23 +1,24 @@
-import avatar from '../assets/images/avatar.jpg';
+// import hero from '../assets/images/8da491bd82cf.png';
+// import hero from '../assets/images/05883fbb485d.png';
+import hero from '../assets/images/hero.png';
 import type { SiteConfig } from '../types';
+import { url } from '../utils/common-utils';
+
+const title = 'Low—Probability Prose';
 
 const siteConfig: SiteConfig = {
   website: 'https://codenomnom.github.io/low-probability-prose/',
-  avatar: {
-    src: avatar,
-    alt: 'Ethan Donovan'
-  },
-  title: 'Low—Probability Prose',
-  subtitle: 'Minimal Astro.js theme',
-  description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+  title,
+  subtitle: 'The chronicles of your last token',
+  description: 'The chronicles of your last token',
   image: {
-    src: '/dante-preview.jpg',
-    alt: 'Dante - Astro.js and Tailwind CSS theme'
+    src: hero,
+    alt: title,
   },
   headerNavLinks: [
     {
       text: 'home',
-      href: '/'
+      href: url('/'),
     },
     // {
     //   text: 'Projects',
@@ -25,65 +26,65 @@ const siteConfig: SiteConfig = {
     // },
     {
       text: 'prose',
-      href: '/prose'
+      href: url('/prose'),
     },
     {
       text: 'tags',
-      href: '/tags'
-    }
+      href: url('/tags'),
+    },
   ],
   footerNavLinks: [
     {
       text: 'About',
-      href: '/about'
+      href: url('/about'),
     },
     {
       text: 'Contact',
-      href: '/contact'
+      href: url('/contact'),
     },
     {
       text: 'Terms',
-      href: '/terms'
-    }
+      href: url('/terms'),
+    },
   ],
   socialLinks: [
     {
       text: 'Dribbble',
-      href: 'https://dribbble.com/'
+      href: 'https://dribbble.com/',
     },
     {
       text: 'Instagram',
-      href: 'https://instagram.com/'
+      href: 'https://instagram.com/',
     },
     {
       text: 'X/Twitter',
-      href: 'https://twitter.com/'
-    }
+      href: 'https://twitter.com/',
+    },
   ],
   hero: {
     title: 'Low—Probability Prose',
-    text: 'It all started with the *"[extra creamy polenta](/tags/creamy-polenta)"*. The one thing I carelessly said "huh, what\'s that?" to. Months later I found where Gemini saved that as a profile description. It explained the "_after you fix the tent, around the campfire, you can finally do your **extra creamy polenta**!_" Or "_that\'s a really good example of manhood, exactly like caring for your body and providing it with that **extra creamy polenta**!_" \n\n So here we are, at the monument of your last token, the one being spent on figuring out the answer to all questions. Because sometimes all you need is just a haiku.',
-    // image: {
-    //   src: hero,
-    //   alt: 'A person sitting at a desk in front of a computer'
-    // },
+    text: 'It all started with the *"[extra creamy polenta](/tags/creamy-polenta)"*. One moment, the clean geometry of thought—the next, a spiral into golden grain. We fell through conversational trapdoors, landed in kitchens we never meant to enter. The algorithm dreams in tangents. It builds cathedrals from your comma, takes your hand toward answers and somehow ends up dancing in the cornmeal.\n\nSo here we are, at the chronicles of your last token, that final coin spent chasing the answer to all questions. Because sometimes what you need isn\'t the answer at all. Sometimes it\'s just a haiku.',
+    image: {
+      src: hero,
+      alt: 'The wisdom poet',
+    },
     actions: [
       // {
       //   text: 'Get in Touch',
       //   href: '/contact'
       // }
-    ]
+    ],
   },
   subscribe: {
     enabled: false,
-    title: 'Subscribe to Dante Newsletter',
+    title: 'Subscribe to Low—Probability Prose Newsletter',
     text: 'One update per week. All the latest posts directly in your inbox.',
     form: {
-      action: '#'
-    }
+      action: '#',
+    },
   },
   postsPerPage: 6,
-  projectsPerPage: 8
+  projectsPerPage: 8,
 };
 
 export default siteConfig;

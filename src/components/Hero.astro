@@ -26,7 +26,7 @@ const { title, image, text, actions } = Astro.props;
           {image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{image.caption}</figcaption>}
         </figure>
       )}
-      {text && <div class="prose max-w-none" set:html={marked.parse(text)} />}
+      {text && <div class="prose prose-lg max-w-none font-serif" set:html={marked.parse(text)} />}
       {actions && actions.length > 0 && (
         <div class="flex flex-wrap gap-4">
           {actions.map((action) => (

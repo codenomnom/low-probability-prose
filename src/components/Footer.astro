@@ -1,5 +1,6 @@
 ---
 import siteConfig from '../data/site-config';
+import { url } from '../utils/common-utils';
 
 const socialLinks = siteConfig.socialLinks ?? [];
 const navLinks = siteConfig.footerNavLinks ?? [];
@@ -42,7 +43,7 @@ const currentYear = new Date().getFullYear();
     }
     <p class="text-sm">
       &copy; {currentYear}
-      <a class="hover:underline hover:underline-offset-2" href="/">{siteConfig.title}</a>. Some rights reserved.
+      <a class="hover:underline hover:underline-offset-2" href={url('/')}>{siteConfig.title}</a>. Some rights reserved.
     </p>
   </div>
 </footer>
