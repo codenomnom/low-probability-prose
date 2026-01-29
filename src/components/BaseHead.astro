@@ -6,6 +6,7 @@ import siteConfig from '../data/site-config';
 import type { ImageInput } from '../types';
 
 import '../styles/global.css';
+import { url } from '../utils/common-utils';
 
 export type Props = {
   title?: string;
@@ -66,9 +67,15 @@ function formatCanonicalURL(url: string | URL) {
 <link rel="preload" as="font" type="font/woff2" href={newsreaderWoff2} crossorigin="anonymous" />
 
 <!-- Low Priority Global Metadata -->
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="sitemap" href="/sitemap-index.xml" />
-<link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS" />
+
+<link rel="icon" type="image/png" href={url('/favicon-96x96.png')} sizes="96x96" />
+<link rel="shortcut icon" href={url('/favicon.ico')} />
+<link rel="apple-touch-icon" sizes="180x180" href={url('/apple-touch-icon.png')} />
+<link rel="manifest" href={url('/site.webmanifest')} />
+<link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+
+<link rel="sitemap" href={url('/sitemap-index.xml')} />
+<link rel="alternate" type="application/rss+xml" href={url('/rss.xml')} title="RSS" />
 
 <!-- Page Metadata -->
 <link rel="canonical" href={formatCanonicalURL(canonicalURL)} />
