@@ -2,6 +2,7 @@
 title: 'Unveiling the Magic: Exploring the Latest CSS Features'
 excerpt: 'Highlight and explain the newest CSS features or updates. Include examples and demonstrate how these features can enhance the styling and layout of web pages.'
 publishDate: 'October 11 2023'
+draft: true
 tags:
   - CSS
   - Web development

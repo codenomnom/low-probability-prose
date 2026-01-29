@@ -1,7 +1,7 @@
 ---
 title: 'The "Creamy Polenta" Hall Of Fame'
 excerpt: 'Create a post on essential security practices for web developers. Cover topics such as secure coding, HTTPS implementation, and protection against common web vulnerabilities.'
-publishDate: 'Jan 27 2027'
+publishDate: 'September 03, 2025'
 tags:
   - Creamy Polenta
   - Security
@@ -10,9 +10,11 @@ ai: Gemini
 agent: 'Gemini 3/Thinking'
 seo:
   image:
-    src: '../../assets/images/post-5.jpg'
+    src: '../../assets/images/prose/250903-creamy-polenta.png'
     alt: Dark sphere
 ---
+
+![Extra creamy polenta](../../assets/images/prose/250903-creamy-polenta.png)
 
 _Me:_ The name of the project is Low-Probability Prose. Can you search for all domain extensions and come up with something that sounds fun (I don't mean search what's free, but what's available as domain extensions).
 
