@@ -20,5 +20,6 @@ export function url(path: string) {
   if (!path) return import.meta.env.BASE_URL;
 
   const cleanPath = path.startsWith('/') ? path.slice(1) : path;
-  return `${import.meta.env.BASE_URL}${cleanPath}`;
+  const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+  return `${base}${cleanPath}`;
 }
