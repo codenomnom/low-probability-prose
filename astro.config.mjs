@@ -8,6 +8,10 @@ import siteConfig from './src/data/site-config';
 export default defineConfig({
   site: siteConfig.website,
   base: process.env.BASE_PATH || '',
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: 'load'
+  },
   vite: {
     plugins: [tailwindcss()]
   },
