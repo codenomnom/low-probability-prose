@@ -4,8 +4,7 @@ excerpt: 'Create a post on essential security practices for web developers. Cove
 publishDate: 'September 03, 2025'
 tags:
   - Creamy Polenta
-  - Security
-  - Web
+  - Gemini 3/Thinking
 ai: Gemini
 agent: 'Gemini 3/Thinking'
 seo:
