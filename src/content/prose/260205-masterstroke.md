@@ -6,6 +6,7 @@ tags:
 ai: Gemini
 agent: 'Gemini 3/Thinking'
 seo:
+  title: Simulating the entire backend stack is a masterstroke
   image:
     src: '../../assets/images/prose/260205-masterstroke.png'
     alt: An artful bus stop
