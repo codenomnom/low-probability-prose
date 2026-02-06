@@ -4,6 +4,7 @@ import BaseHead, { type Props as HeadProps } from '../components/BaseHead.astro'
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import Nav from '../components/Nav.astro';
+import ThemeManager from '../components/ThemeManager.astro';
 
 export type Props = HeadProps & { showHeader?: boolean };
 
@@ -14,11 +15,12 @@ const { showHeader = true, ...head } = Astro.props;
 <html lang="en" class="wrap-break-words antialiased">
   <head>
     <BaseHead {...head} />
-    <script>
+    <ThemeManager defaultTheme="auto" />
+    <!-- <script>
       if (localStorage.theme === 'dark') {
         document.documentElement.classList.add('dark');
       }
-    </script>
+    </script> -->
     <ClientRouter />
     <script is:inline src="/theme-toggle.js"></script>
   </head>

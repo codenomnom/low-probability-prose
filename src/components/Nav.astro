@@ -1,6 +1,6 @@
 ---
 import NavLink from './NavLink.astro';
-import ThemeToggle from './ThemeToggle.astro';
+import ThemeSelect from './ThemeSelect.astro';
 import siteConfig from '../data/site-config';
 
 const navLinks = siteConfig.headerNavLinks ?? [];
@@ -34,7 +34,7 @@ const navLinks = siteConfig.headerNavLinks ?? [];
     )
   }
   <div class="absolute top-4 right-0 z-10 md:top-8">
-    <ThemeToggle />
+    <ThemeSelect />
   </div>
 </nav>
 
