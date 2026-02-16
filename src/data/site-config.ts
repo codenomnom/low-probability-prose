@@ -7,7 +7,7 @@ import { url } from '../utils/common-utils';
 const title = 'Low—Probability Prose';
 
 const siteConfig: SiteConfig = {
-  website: 'https://codenomnom.github.io/low-probability-prose/',
+  website: 'https://low-probability-prose.com',
   title,
   subtitle: 'The chronicles of your last token',
   description: 'The chronicles of your last token',
