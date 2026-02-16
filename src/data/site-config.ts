@@ -34,32 +34,40 @@ const siteConfig: SiteConfig = {
     },
   ],
   footerNavLinks: [
-    {
-      text: 'About',
-      href: url('/about'),
-    },
-    {
-      text: 'Contact',
-      href: url('/contact'),
-    },
-    {
-      text: 'Terms',
-      href: url('/terms'),
-    },
+    // {
+    //   text: 'About',
+    //   href: url('/about'),
+    // },
+    // {
+    //   text: 'Contact',
+    //   href: url('/contact'),
+    // },
+    // {
+    //   text: 'Terms',
+    //   href: url('/terms'),
+    // },
   ],
   socialLinks: [
+    // {
+    //   text: 'About',
+    //   href: url('/about'),
+    // },
     {
-      text: 'Dribbble',
-      href: 'https://dribbble.com/',
+      text: 'GitHub',
+      href: 'https://github.com/codenomnom/low-probability-prose',
     },
-    {
-      text: 'Instagram',
-      href: 'https://instagram.com/',
-    },
-    {
-      text: 'X/Twitter',
-      href: 'https://twitter.com/',
-    },
+    // {
+    //   text: 'Contact',
+    //   href: url('/contact'),
+    // },
+    // {
+    //   text: 'Instagram',
+    //   href: 'https://instagram.com/',
+    // },
+    // {
+    //   text: 'X/Twitter',
+    //   href: 'https://twitter.com/',
+    // },
   ],
   hero: {
     title: 'Low—Probability Prose',

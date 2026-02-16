@@ -30,7 +30,7 @@ const currentYear = new Date().getFullYear();
         <div class="flex flex-wrap gap-x-4 gap-y-1">
           {socialLinks.map((link) => (
             <a
-              class="inline-flex items-center justify-center text-sm hover:underline hover:underline-offset-2"
+              class="inline-flex items-center justify-center font-serif text-sm hover:underline hover:underline-offset-2"
               href={link.href}
               target="_blank"
               rel="noopener noreferer"
@@ -41,9 +41,15 @@ const currentYear = new Date().getFullYear();
         </div>
       )
     }
-    <p class="text-sm">
+    <p class="footer-text font-serif text-sm">
+      @
+      <a href="https://codenomnom.com" target="_blank" class="border-b border-dashed hover:border-solid">codenomnom</a>
+      {['🔫', '❤️', '👋'][(3 * Math.random()) | 0]}
+      <a href={url('/terms')} class="border-b border-dashed hover:border-solid">cc by-sa 4.0</a>
+    </p>
+    <!-- <p class="text-sm">
       &copy; {currentYear}
       <a class="hover:underline hover:underline-offset-2" href={url('/')}>{siteConfig.title}</a>. Some rights reserved.
-    </p>
+    </p> -->
   </div>
 </footer>
