@@ -21,3 +21,5 @@ src/assets/images/**/_*.png
 
 # macOS-specific files
 .DS_Store
+
+scrap/
