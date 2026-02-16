@@ -71,7 +71,7 @@ const siteConfig: SiteConfig = {
   ],
   hero: {
     title: 'Low—Probability Prose',
-    text: 'It all started with the *"[extra creamy polenta](/tags/creamy-polenta)"*. One moment, the clean geometry of thought—the next, a spiral into golden grain. We fell through conversational trapdoors, landed in kitchens we never meant to enter. The algorithm dreams in tangents. It builds cathedrals from your comma, takes your hand toward answers and somehow ends up dancing in the cornmeal.\n\nSo here we are, at the chronicles of your last token, that final coin spent chasing the answer to all questions. Because sometimes what you need isn\'t the answer at all. Sometimes it\'s just a haiku.',
+    text: `It all started with the *"[extra creamy polenta](${url('/tags/creamy-polenta')})"*. One moment, the clean geometry of thought—the next, a spiral into golden grain. We fell through conversational trapdoors, landed in kitchens we never meant to enter. The algorithm dreams in tangents. It builds cathedrals from your comma, takes your hand toward answers and somehow ends up dancing in the cornmeal.\n\nSo here we are, at the chronicles of your last token, that final coin spent chasing the answer to all questions. Because sometimes what you need isn\'t the answer at all. Sometimes it\'s just a haiku.`,
     image: {
       src: hero,
       alt: 'The wisdom poet',
