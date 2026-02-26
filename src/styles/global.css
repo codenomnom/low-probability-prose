@@ -103,3 +103,9 @@ html.dark {
     @apply border-none pl-0 font-serif text-[1.375em] leading-snug font-normal italic sm:text-[1.66667em];
   }
 }
+
+@layer base {
+  main img {
+    @apply rounded-md;
+  }
+}
