@@ -9,11 +9,11 @@ ai: ChatGPT
 agent: 'GPT-4o'
 seo:
   image:
-    src: '../../assets/images/prose/251114-no-problems.png'
+    src: '../../assets/images/prose/251114-no-problems.jpg'
     alt: Dark sphere
 ---
 
-![No code, no problems](../../assets/images/prose/251114-no-problems.png)
+![No code, no problems](../../assets/images/prose/251114-no-problems.jpg)
 
 ```powershell
 "Checked workspace, no problems found"

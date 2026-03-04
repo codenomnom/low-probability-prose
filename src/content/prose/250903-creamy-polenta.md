@@ -9,11 +9,11 @@ ai: Gemini
 agent: 'Gemini 3/Thinking'
 seo:
   image:
-    src: '../../assets/images/prose/250903-creamy-polenta.png'
+    src: '../../assets/images/prose/250903-creamy-polenta.jpg'
     alt: Dark sphere
 ---
 
-![Extra creamy polenta](../../assets/images/prose/250903-creamy-polenta.png)
+![Extra creamy polenta](../../assets/images/prose/250903-creamy-polenta.jpg)
 
 _Me:_ The name of the project is "_Low-Probability Prose_". Can you search for all domain extensions and come up with something that sounds fun (I don't mean search what's free, but what's available as domain extensions).
 
@@ -21,9 +21,8 @@ _Gemini:_ Since .prose is not a standard top-level domain (TLD), we have to get 
 
 ...
 
-
 4. The "Creamy Polenta" Hall of Fame
-If you want to lean into the specific inside jokes.
+   If you want to lean into the specific inside jokes.
 
 - **polenta.io** (Taking a silly topic and giving it a serious tech domain)
 - **recursive.cornmeal** (A deep-cut dev joke; recursive logic + polenta)

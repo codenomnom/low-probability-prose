@@ -2,7 +2,7 @@
 
 > The chronicles of your last token
 
-![Low—Probability Prose header image](src/assets/images/hero.png)
+![Low—Probability Prose header image](src/assets/images/hero.jpg)
 
 It all started with the _"extra creamy polenta"_. One moment, the clean geometry of thought—the next, a spiral into golden grain. We fell through conversational trapdoors, landed in kitchens we never meant to enter. The algorithm dreams in tangents. It builds cathedrals from your comma, takes your hand toward answers and somehow ends up dancing in the cornmeal.
 

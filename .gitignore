@@ -14,6 +14,7 @@ pnpm-debug.log*
 
 # unnecessary images
 src/assets/images/**/_*.png
+src/assets/images/**/_*.jpg
 
 # environment variables
 .env

@@ -8,8 +8,8 @@ agent: 'GPT-5 mini'
 seo:
   title: Passes it where?
   image:
-    src: '../../assets/images/prose/260225-passing-it-nowhere.png'
+    src: '../../assets/images/prose/260225-passing-it-nowhere.jpg'
     alt: Going nowhere
 ---
 
-![Going nowhere](../../assets/images/prose/260225-passing-it-nowhere.png)
+![Going nowhere](../../assets/images/prose/260225-passing-it-nowhere.jpg)

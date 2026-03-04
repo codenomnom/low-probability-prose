@@ -1,6 +1,6 @@
 // import hero from '../assets/images/8da491bd82cf.png';
 // import hero from '../assets/images/05883fbb485d.png';
-import hero from '../assets/images/hero.png';
+import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 import { url } from '../utils/common-utils';
 

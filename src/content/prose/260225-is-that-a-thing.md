@@ -8,11 +8,11 @@ agent: 'GPT-5 mini'
 seo:
   title: Considering Prettier versions
   image:
-    src: '../../assets/images/prose/260225-is-that-a-thing.png'
+    src: '../../assets/images/prose/260225-is-that-a-thing.jpg'
     alt: Woman grimacing
 ---
 
-![Woman grimacing](../../assets/images/prose/260225-is-that-a-thing.png)
+![Woman grimacing](../../assets/images/prose/260225-is-that-a-thing.jpg)
 
 Considering Prettier versions
 

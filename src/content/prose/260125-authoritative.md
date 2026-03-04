@@ -10,8 +10,8 @@ agent: Opus 4.6
 seo:
   title: You caught me making up research
   image:
-    src: '../../assets/images/prose/260125-authoritative.png'
+    src: '../../assets/images/prose/260125-authoritative.jpg'
     alt: A person standing at the window
 ---
 
-![Are colons supported](../../assets/images/prose/260125-authoritative.png)
+![Are colons supported](../../assets/images/prose/260125-authoritative.jpg)

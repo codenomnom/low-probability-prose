@@ -9,8 +9,8 @@ agent: 'Sonnet 4.6/Extended'
 seo:
   title: URLs extrapolation
   image:
-    src: '../../assets/images/prose/260226-extrapolating-urls.png'
+    src: '../../assets/images/prose/260226-extrapolating-urls.jpg'
     alt: Extrapolation masterpiece
 ---
 
-![Extrapolation masterpiece](../../assets/images/prose/260226-extrapolating-urls.png)
+![Extrapolation masterpiece](../../assets/images/prose/260226-extrapolating-urls.jpg)

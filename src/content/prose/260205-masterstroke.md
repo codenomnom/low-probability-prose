@@ -8,8 +8,8 @@ agent: 'Gemini 3/Thinking'
 seo:
   title: Simulating the entire backend stack is a masterstroke
   image:
-    src: '../../assets/images/prose/260205-masterstroke.png'
+    src: '../../assets/images/prose/260205-masterstroke.jpg'
     alt: An artful bus stop
 ---
 
-![An artful bus stop](../../assets/images/prose/260205-masterstroke.png)
+![An artful bus stop](../../assets/images/prose/260205-masterstroke.jpg)
