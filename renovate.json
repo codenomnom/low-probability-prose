@@ -4,9 +4,9 @@
   "dependencyDashboard": true,
   "packageRules": [
     {
-      "matchPackagePatterns": ["^@types/"],
       "groupName": "ts types",
-      "automerge": false
+      "automerge": false,
+      "matchPackageNames": ["/^@types//"]
     },
     {
       "matchPackageNames": ["typescript"],
