@@ -28,7 +28,7 @@
     "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
-    "@clack/prompts": "^1.5.0",
+    "@clack/prompts": "^1.5.1",
     "@tailwindcss/typography": "^0.5.19",
     "prettier": "^3.8.3",
     "prettier-plugin-astro": "^0.14.1",
