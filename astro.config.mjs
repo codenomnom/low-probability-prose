@@ -1,3 +1,4 @@
+import { unified } from '@astrojs/markdown-remark';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
@@ -8,6 +9,9 @@ import siteConfig from './src/data/site-config';
 export default defineConfig({
   site: siteConfig.website,
   base: process.env.BASE_PATH || '',
+  markdown: {
+    processor: unified()
+  },
   prefetch: {
     prefetchAll: true,
     defaultStrategy: 'load'
