@@ -36,7 +36,7 @@
     "prettier-plugin-tailwindcss": "^0.8.1"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.64.0"
+    "@rollup/rollup-linux-x64-gnu": "^4.64.1"
   },
   "allowScripts": {
     "sharp@0.34.5": true,
